@@ -27,3 +27,12 @@ mvn spring-boot:run
 # Lerm-civil-lims
 LERM-CIVIL Lite is a Spring Boot–based Laboratory Information Management System (LIMS) inspired by real-world ERP workflows used in soil and civil testing laboratories. Built using Java, Spring Boot, PostgreSQL, REST APIs, and Docker with layered backend architecture.
 1195e1dc7f1ee02b58c322c36ca23bc2c7c79752
+
+
+# Sample reports
+this projects include sample laboratory soil testing reports inspired by real world LIMS/ERP workflows used in civil engineering laboratories.
+
+Location:
+```text
+sample-reports/soil-test-report-sample.pdf
+```
