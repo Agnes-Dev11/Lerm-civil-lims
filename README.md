@@ -36,3 +36,8 @@ Location:
 ```text
 sample-reports/soil-test-report-sample.pdf
 ```
+
+
+## 🏢 Architecture Inspiration
+
+This project is inspired by ERP/LIMS workflows implemented using customized Odoo-based enterprise systems for civil and soil testing laboratories.
