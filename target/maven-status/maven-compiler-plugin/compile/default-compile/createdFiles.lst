@@ -1,0 +1,5 @@
+com\lermcivil\LermCivilApplication.class
+com\lermcivil\repository\UserRepository.class
+com\lermcivil\controller\UserController.class
+com\lermcivil\entity\User.class
+com\lermcivil\service\UserService.class
