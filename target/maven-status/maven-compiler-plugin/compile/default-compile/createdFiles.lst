@@ -1,5 +1,8 @@
-com\lermcivil\LermCivilApplication.class
 com\lermcivil\repository\UserRepository.class
 com\lermcivil\controller\UserController.class
-com\lermcivil\entity\User.class
 com\lermcivil\service\UserService.class
+com\lermcivil\controller\WebController.class
+com\lermcivil\LermCivilApplication.class
+com\lermcivil\service\ReportService.class
+com\lermcivil\entity\User.class
+com\lermcivil\controller\ReportController.class
