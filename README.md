@@ -41,3 +41,13 @@ sample-reports/soil-test-report-sample.pdf
 ## 🏢 Architecture Inspiration
 
 This project is inspired by ERP/LIMS workflows implemented using customized Odoo-based enterprise systems for civil and soil testing laboratories.
+
+## Architecture 
+
+ Frontend: HTML/CSS
+ Backend: Spring boot
+ Database: Postgresql
+ ERP layer: Odoo Integration
+ Containerization: Docker
+ Version Control: Github
+ PDF reports: iTextPDf
