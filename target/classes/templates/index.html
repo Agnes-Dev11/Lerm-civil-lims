@@ -1,25 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>LERM Civil Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LERM Civil Laboratory</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fc;
+        }
+
+        .header {
+            background: linear-gradient(90deg, #0f172a, #1e3a8a);
+            color: white;
+            padding: 25px;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #1e3a8a;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 12px;
+            margin-bottom: 10px;
+            background: #eef2ff;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+
+        .services a {
+            display: block;
+            text-decoration: none;
+            background: #2563eb;
+            color: white;
+            padding: 14px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            transition: 0.3s;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .services a:hover {
+            background: #1d4ed8;
+            transform: scale(1.02);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #0f172a;
+            color: white;
+            margin-top: 30px;
+        }
+
+    </style>
+
 </head>
 
 <body>
 
-<h1>LERM Civil Laboratory Management</h1>
+<div class="header">
+    LERM Civil Laboratory Management
+</div>
 
-<h2>Modules</h2>
+<div class="container">
 
-<ul>
-    <li>Customer Management</li>
-    <li>Sample Tracking</li>
-    <li>PDF Report Generation</li>
-</ul>
+    <div class="card">
 
-<a href="/generate-report">
-    Generate Sample Report
-</a>
+        <h2>Modules</h2>
+
+        <ul>
+            <li>Customer Management</li>
+            <li>Sample Tracking</li>
+            <li>PDF Report Generation</li>
+            <li>Odoo ERP Integration</li>
+            <li>Invoice Workflow</li>
+            <li>Laboratory Approval System</li>
+        </ul>
+
+    </div>
+
+    <div class="card services">
+
+        <h2>Available Services</h2>
+
+        <a href="/generate-report">
+            Generate Sample Report
+        </a>
+
+        <a href="/sync-customer">
+            Sync Customer With Odoo
+        </a>
+
+        <a href="/sync-invoice">
+            Sync Invoice With ERP
+        </a>
+
+        <a href="/approve-sample">
+            Approve Laboratory Sample
+        </a>
+
+        <a href="/sample-status">
+            Check Sample Status
+        </a>
+
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2026 LERM Civil Laboratory Management System | Spring Boot + Odoo ERP
+</div>
 
 </body>
+
 </html>

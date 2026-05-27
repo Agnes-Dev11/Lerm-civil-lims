@@ -1,19 +1,14 @@
 package com.lermcivil.controller;
 
-import com.lermcivil.service.ReportService;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class ReportController {
 
-    @Autowired
-    private ReportService reportService;
-
     @GetMapping("/generate-report")
-    public String generateReport() throws Exception {
+    public String getPdfReport() {
 
-        return reportService.generatePdf();
+        return "redirect:/soil-test-report-sample.pdf";
     }
 }
